@@ -20,8 +20,9 @@ body {
 	-webkit-box-shadow: 0px 0px 8px #444;
 }
 
-h1 {
-	font-size: 35px; color: #445668; text-transform: uppercase;
+h2 {
+	font-size: 25px; color: #1d456d;
+	text-transform: uppercase;
 	text-align: center; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
 }
 
@@ -76,4 +77,40 @@ input[type=submit] {
 	background: -moz-linear-gradient(top, #718DA9 0%, #415D79 100%); /* firefox */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79)); /* webkit */
 	cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #415d79;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-size: 17px;
+    color: #c9d0de;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+* {
+box-sizing: border-box;
+}
+
+footer {
+	padding: 14px 16px;
+	color: #c9d0de;
+	text-align: center;
 }
