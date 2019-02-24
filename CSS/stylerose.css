@@ -36,7 +36,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: #415d79;
 }
 
 li {
@@ -74,7 +74,7 @@ padding: 5px;
     color:white;
     margin-bottom: 40px;
     margin-top: 20px;
-    height:1500px;
+    height:900px;
 }
 
 
@@ -87,7 +87,7 @@ padding: 5px;
     color: darkgreen;
     margin-bottom: 40px;
     margin-top: 20px;
-    height:1500px;
+    height:900px;
 }
 
 .column_3 {
@@ -98,7 +98,7 @@ padding: 5px;
     color:white;
     margin-bottom: 40px;
     margin-top: 20px;
-    height:1500px;
+    height:900px;
 
 }
 
@@ -158,7 +158,7 @@ clear: both;
 
 img {
     padding: 2%;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin-left: 18%;
 }
